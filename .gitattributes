@@ -1,0 +1,19 @@
+# Images
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# Videos
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Sounds
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+
+# 3D Models
+*.dae filter=lfs diff=lfs merge=lfs -text
+
+# Big Unity Files
+*.asset filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+
+# Other Big Files
+*.zip filter=lfs diff=lfs merge=lfs -text
